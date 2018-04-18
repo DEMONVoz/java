@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class laba2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int x = 2;
-        double a = 0.75;
-        double b = 1.1;
-        double c = 0.4;
+        double x = 2;
+        double a = 0.01;
+        double b = 5;
+        double c = 4.1;
         System.out.print("Введіть 0 для обчислення заданих чисел або 1 для вводу з клавіатури : ");
         int k = in.nextInt();
         if( k == 1)
